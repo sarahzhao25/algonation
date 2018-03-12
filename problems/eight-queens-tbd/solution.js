@@ -19,6 +19,11 @@ function intersectLL(node1, node2) {
 
 function intersectSecond(node1, node2) {
   //if they intersect, then they will eventually reach the same tail
+  function getTail(node) {
+    if (!node.next) return node;
+    else return getTail(node.next);
+  }
 
+  return getTail(node1) === getTail(node2);
 
 }
