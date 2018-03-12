@@ -19,7 +19,9 @@ longestIncreasingSubsequence([10, 22, 9, 33, 20, 50, 41, 60, 80, 21, 23, 24, 25,
 ### Approach
 The idea is to use dynammic programming to store the ever-increasing lengths of sub-arrays.
 
-TBD
+We are storing the keys inside of an object, and the lengths as values. We can also store the lengths as another array since we have the indices.
+
+Upon every iteration of adding a key, we loop through the object and check whether or not the key is less than our current number. If it is, we check whether or not its length is greater than or equal to the current number's length. If it is, we can then set our number as that number + 1, or we can continue to add 1 through every iteration.
 
 ### Solution
 See `solution.js`.
