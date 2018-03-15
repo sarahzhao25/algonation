@@ -22,3 +22,22 @@ function maxSubArray(arr) {
     })
       return arr.slice(startIndexMax, endIndexMax);
   }
+
+//Solution #2 - just finding the subarray
+function maxSubArr(arr) {
+  var currMaxSum = arr[0];
+  var maxSum = arr[0];
+
+  for (var i = 1; i < arr.length; i++) {
+    //if the individual arr[i] is greater than the sum of its parts, swap the sum to start at arr[i]
+    if (currMaxSum + arr[i]  < arr[i]) {
+      currMaxSum = arr[i];
+    }
+    //otherwise continue to sum the totals
+    else {
+      currMaxSum += arr[i];
+    }
+    maxSum = currMaxSum > maxSum ? currMaxSum : maxSum;
+  }
+  return maxSum;
+}
