@@ -14,7 +14,7 @@ MaxHeap.prototype.heapifyUp = function() {
   let currParent = Math.floor((currIndex - 1) / 2);
   while (currIndex > 0 && this.heap[currIndex] > this.heap[currParent]) {
     [this.heap[currIndex], this.heap[currParent]] = [this.heap[currParent], this.heap[currIndex]];
-    currIndex--;
+    currIndex = currParent;
     currParent = Math.floor((currIndex - 1) / 2);
   }
 }
