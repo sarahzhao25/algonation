@@ -40,3 +40,26 @@ function productOn(arr) {
 }
 
 productOn([1, 2, 3, 4, 5]) //returns [120, 60, 40, 30, 24]
+
+
+/* POSSIBILITY #2 */
+function arrayOfArrayProducts(arr) {
+  if (arr.length <= 1) return [];
+  let outputArr = [1], product = 1;
+
+  //run through a for loop and calculate the products to the left of the index
+  for (let i = 1; i < arr.length; i++) {
+    outputArr.push(arr[i - 1] * outputArr[i - 1]);
+  }
+
+  //run through the same loop on its right
+  for (let j = arr.length - 2; j >= 0; j--) {
+    product *= arr[j + 1];
+    outputArr[j] *= product;
+  }
+
+  /*for (let k = 0; k < arr.length; k++) {
+    productArr[k] = leftArr[k] * rightArr[k];
+  }*/
+  return outputArr;
+}
