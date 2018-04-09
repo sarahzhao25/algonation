@@ -37,3 +37,5 @@ Constraints:
 [time limit] 5000ms
 [input] Dictionary dict
 [output] Dictionary
+
+SEE PRAMP!!
