@@ -22,3 +22,5 @@ Constraints:
 
 0 ≤ arr.length ≤ 100
 [output] array.character
+
+SEE PRAMP!!
