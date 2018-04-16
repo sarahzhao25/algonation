@@ -13,7 +13,7 @@ Node 1 --> Node 2 --> Node 3 -
           Node 5  <--  Node 4 <
 
 ### Approach
-The idea is to use a runner, one node that will move faster than the other
+The idea is to use a runner, one node that will move faster than the other.
 
 ### Solution
 See `solution.js`.
