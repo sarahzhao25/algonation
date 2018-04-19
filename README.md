@@ -20,6 +20,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Minimum Jumps (Greedy)
 - mSmallest
 - Power Sets
+- Quad Sum
 - Product Array
 - Reverse Words
 - River Sizes
