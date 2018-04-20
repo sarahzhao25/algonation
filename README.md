@@ -5,6 +5,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 
 ## Current Problems
 - Award Budget Cuts
+- Binary Search Tree Successor Search
 - Cyclic Linked List
 - Eight Queens (TBD)
 - Find duplicates
