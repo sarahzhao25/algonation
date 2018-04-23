@@ -26,6 +26,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Reverse Words
 - River Sizes
 - Shifted Array Search
+- Sorting Algorithms
 - Spiral
 - Time Intervals
 - Towers of Hanoi
