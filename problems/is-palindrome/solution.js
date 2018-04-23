@@ -15,3 +15,17 @@ function isPalindrome(num) {
   }
   return true;
 }
+
+
+//---- IS PALINDROME STRING
+
+function isPalindrome(string) {
+  // Write your code here.
+	let startIndex = 0, endIndex = string.length - 1;
+	while (startIndex < endIndex) {
+		if (string[startIndex] !== string[endIndex]) return false;
+		startIndex++;
+		endIndex--;
+	}
+	return true;
+}

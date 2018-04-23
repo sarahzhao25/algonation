@@ -13,3 +13,6 @@ See `solution.js`.
 
 ### Credit/Inspiration
 This problem is accredited to Sandy Mak, a graduate from Fullstack Academy.
+
+
+## Is this STRING a Palindrome?
