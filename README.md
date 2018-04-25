@@ -19,6 +19,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Matrix IndexOf
 - Maximum Subarray
 - Maximum Increasing Subsequence
+- Maximum Subset Sum No Adjacent
 - Minimum Jumps (Greedy)
 - mSmallest
 - Power Sets
