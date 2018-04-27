@@ -20,6 +20,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Maximum Subarray
 - Maximum Increasing Subsequence
 - Maximum Subset Sum No Adjacent
+- Merge Two Packages
 - Minimum Jumps (Greedy)
 - mSmallest
 - Power Sets
