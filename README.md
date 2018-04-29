@@ -7,6 +7,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Array Index & Element Equality
 - Award Budget Cuts
 - Binary Search Tree Successor Search
+- Coin Change
 - Cyclic Linked List
 - Eight Queens (TBD)
 - Find duplicates
