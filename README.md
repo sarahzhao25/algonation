@@ -16,6 +16,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Is Palindrome
 - K-Messed Array Sort
 - Largest Smaller Key
+- Levenshtein Distance
 - Linked List Intersection
 - Linked List Node Removal
 - Matrix IndexOf
