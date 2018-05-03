@@ -19,6 +19,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Levenshtein Distance
 - Linked List Intersection
 - Linked List Node Removal
+- Longest Increasing Subsequence
 - Matrix IndexOf
 - Maximum Subarray
 - Maximum Increasing Subsequence
