@@ -14,6 +14,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Flatten Dictionary
 - Get Different Number
 - Is Palindrome
+- Kadane's Algorithm
 - K-Messed Array Sort
 - Largest Smaller Key
 - Levenshtein Distance
