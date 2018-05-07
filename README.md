@@ -21,6 +21,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Linked List Intersection
 - Linked List Node Removal
 - Longest Increasing Subsequence
+- Longest Palindromic Substring
 - Matrix IndexOf
 - Maximum Subarray
 - Maximum Increasing Subsequence
