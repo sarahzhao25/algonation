@@ -37,6 +37,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Shifted Array Search
 - Sorting Algorithms
 - Spiral
+- Suffix Trie Construction
 - Time Intervals
 - Towers of Hanoi
 - Validate BST
