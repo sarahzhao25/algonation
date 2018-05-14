@@ -16,6 +16,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Is Palindrome
 - Kadane's Algorithm
 - K-Messed Array Sort
+- Largest Range
 - Largest Smaller Key
 - Levenshtein Distance
 - Linked List Intersection
