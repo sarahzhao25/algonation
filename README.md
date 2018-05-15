@@ -27,6 +27,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Maximum Subarray
 - Maximum Increasing Subsequence
 - Maximum Subset Sum No Adjacent
+- Maximum Sum Increasing Subsequence
 - Merge Two Packages
 - Minimum Jumps (Greedy)
 - mSmallest
