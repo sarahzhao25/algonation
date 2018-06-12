@@ -47,3 +47,4 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Time Intervals
 - Towers of Hanoi
 - Validate BST
+- Water Collector

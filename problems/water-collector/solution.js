@@ -17,3 +17,23 @@ function waterArea(heights) {
 }
 
 //O(n) solution
+function waterArea2(heights) {
+  const surfaceAreas = new Array(heights.length).fill(0);
+  let leftMax = 0;
+  //get the maximum left heights...
+  for (let i = 0; i < heights.length; i++) {
+    let possibleLeftMax = heights[i];
+    surfaceAreas[i] = Math.max(possibleLeftMax, leftMax);
+    leftMax = surfaceAreas[i];
+  }
+
+  //now for the right side
+  let rightMax = 0, smaller = 0;
+  for (let i = heights.length - 1; i >= 0; i--) {
+    rightMax = Math.max(rightMax, heights[i]);
+    smaller = Math.min(rightMax, surfaceAreas[i]);
+    surfaceAreas[i] = smaller - heights[i];
+  }
+
+  return surfaceAreas.reduce((accum, elem) => accum + elem, 0);
+}
