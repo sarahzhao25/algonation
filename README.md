@@ -14,6 +14,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Find duplicates
 - Flatten Dictionary
 - Get Different Number
+- Handshakes Problem
 - Immutable BST
 - Is Palindrome
 - Kadane's Algorithm
