@@ -12,6 +12,7 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Cyclic Linked List
 - Eight Queens (TBD)
 - Find duplicates
+- Pairs with Specific Difference
 - Flatten Dictionary
 - Get Different Number
 - Handshakes Problem
