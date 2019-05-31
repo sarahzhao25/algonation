@@ -50,3 +50,4 @@ This repository is built for algorithm problems and practice, recalibrating and 
 - Towers of Hanoi
 - Validate BST
 - Water Collector
+- Topological Sort
